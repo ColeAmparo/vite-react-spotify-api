@@ -5,16 +5,10 @@ const TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`;
 
 const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;
 
-/*
 const client_id = import.meta.env.VITE_APP_SPOTIFY_CLIENT_ID
 const client_secret = import.meta.env.VITE_APP_SPOTIFY_CLIENT_SECRET
 const refresh_token = import.meta.env.VITE_APP_SPOTIFY_REFRESH_TOKEN
-*/
 
-
-const client_id = "c0740c0eb25d4fb6bec44971a14d10db"
-const client_secret = "8684ec4fa3924498a613367072364a4e"
-const refresh_token = "AQDC66Kr3Pzyy_mwQBZ_X_JF8i9jlRyBfzM18JbyAMQBipe_ejwGZ_vT0GvJQhlIyMfSb1TqxywDotnR7HPP1MmfZNAlE5FpDFk1Y_EEAplEiBLOnbtceLDzDDeMf1cek_M"
 
 const getAccessToken = async () => {
     // 'check note -- npm install buffer'
